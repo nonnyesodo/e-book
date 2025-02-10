@@ -3,7 +3,7 @@
  
 
 ## Getting Started
-1. Clone the repository using Git by running the following command in your terminal: git clone 
+1. Clone the repository using Git by running the following command in your terminal: git clone https://github.com/nonnyesodo/e-book.git
  
 2.Navigate to the project directory
 
