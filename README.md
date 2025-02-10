@@ -1,16 +1,21 @@
-# medical_app
+# ebook_task
 
-A new Flutter project.
+ 
 
 ## Getting Started
+1. Clone the repository using Git by running the following command in your terminal: git clone 
+ 
+2.Navigate to the project directory
 
-This project is a starting point for a Flutter application.
+3.Get the required dependencies by running the following command:flutter pub get 
 
-A few resources to get you started if this is your first Flutter project:
+4.  Run the app using the following command: flutter run
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Troubleshooting
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+*   If you encounter any issues while running the app, check the console output for error messages.
+*   Make sure that your emulator or physical device is properly connected and configured.
+*   If you're still facing issues, try cleaning and rebuilding the project using the following commands:
+flutter clean
+flutter pub get
+flutter run

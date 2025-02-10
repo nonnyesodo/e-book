@@ -1,6 +1,6 @@
-import 'package:medical_app/features/home/data/local/home_static_repo.dart';
-import 'package:medical_app/features/home/presentation/pages/home_page.dart';
-import 'package:medical_app/global_widget/export.dart';
+import 'package:ebook_task/features/home/data/local/home_static_repo.dart';
+import 'package:ebook_task/features/home/presentation/pages/home_page.dart';
+import 'package:ebook_task/global_widget/export.dart';
 
 class BottomNav extends StatefulWidget {
   const BottomNav({super.key});
@@ -26,7 +26,7 @@ class _BottomNavState extends State<BottomNav> {
         children: [
           AppshadowContainer(
             radius: 0,
-            color: AppColors.blackOrWhite(context, reverse: true),
+            color: AppColors.white,
             padding: EdgeInsets.all(size.width * 0.04),
             child: Row(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,

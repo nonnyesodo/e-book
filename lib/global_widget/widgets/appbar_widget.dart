@@ -1,5 +1,4 @@
- 
-import 'package:medical_app/global_widget/export.dart';
+import 'package:ebook_task/global_widget/export.dart';
 
 class AppbarWidget extends StatelessWidget {
   const AppbarWidget(
@@ -23,7 +22,7 @@ class AppbarWidget extends StatelessWidget {
         AppbackButton(color: backColor),
         Spacer(),
         AppExoText(
-            color: titleColor ?? AppColors.blackOrWhite(context),
+            color: titleColor ?? AppColors.black,
             fontSize: 18,
             fontWeight: FontWeight.w600,
             text: title),

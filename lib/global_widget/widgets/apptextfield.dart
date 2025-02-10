@@ -1,4 +1,4 @@
-import 'package:medical_app/global_widget/export.dart';
+import 'package:ebook_task/global_widget/export.dart';
 
 class ApptextField extends StatelessWidget {
   const ApptextField(
@@ -62,20 +62,20 @@ class ApptextField extends StatelessWidget {
                     borderSide: BorderSide(color: AppColors.textGray0)),
                 disabledBorder: OutlineInputBorder(
                     borderRadius: BorderRadius.circular(10.sp),
-                    borderSide:
-                        BorderSide(color: AppColors.greyOrWhite(context))),
+                    borderSide: BorderSide(color: AppColors.textGray0)),
                 errorBorder: OutlineInputBorder(
                     borderRadius: BorderRadius.circular(10.sp),
                     borderSide: BorderSide(color: AppColors.redText)),
                 focusedBorder: OutlineInputBorder(
                     borderRadius: BorderRadius.circular(10.sp),
-                    borderSide:
-                        BorderSide(color: AppColors.blackOrWhite(context))),
-                focusedErrorBorder: OutlineInputBorder(borderRadius: BorderRadius.circular(10.sp), borderSide: BorderSide(color: AppColors.redText)),
+                    borderSide: BorderSide(color: AppColors.black)),
+                focusedErrorBorder: OutlineInputBorder(
+                    borderRadius: BorderRadius.circular(10.sp),
+                    borderSide: BorderSide(color: AppColors.redText)),
                 hintText: hintText ?? '',
                 hintStyle: GoogleFonts.exo(fontSize: 12.sp, fontWeight: FontWeight.w400, color: hintTextColor ?? AppColors.textGray1),
-                suffixIcon: sufixIcon == null ? null : Icon(sufixIcon, color: AppColors.blackOrWhite(context), size: 20.sp),
-                prefixIcon: prefixIcon == null ? null : Icon(prefixIcon, color: AppColors.blackOrWhite(context), size: 20.sp))),
+                suffixIcon: sufixIcon == null ? null : Icon(sufixIcon, color: AppColors.black, size: 20.sp),
+                prefixIcon: prefixIcon == null ? null : Icon(prefixIcon, color: AppColors.black, size: 20.sp))),
       ],
     );
   }

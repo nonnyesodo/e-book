@@ -1,4 +1,4 @@
-import 'package:medical_app/global_widget/export.dart';
+import 'package:ebook_task/global_widget/export.dart';
 
 class ToastMessage {
   static void showErrorToast({

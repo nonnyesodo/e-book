@@ -1,7 +1,7 @@
 enum RouteName {
-  login('/'),
-  botomNav('/bottom_nav'),
-  doctoctDetail('/doctor_detail');
+  botomNav('/'),
+  bookDetail('/book_detail'),
+  bookReader('/book_reader');
 
   final String path;
 

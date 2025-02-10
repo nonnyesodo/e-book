@@ -1,4 +1,4 @@
-import 'package:medical_app/global_widget/export.dart';
+import 'package:ebook_task/global_widget/export.dart';
 
 import '../../core/res/theme/assets.dart';
 
@@ -36,7 +36,6 @@ class AppNetwokImage extends StatelessWidget {
                 errorWidget: (context, url, error) => ClipRRect(
                     borderRadius: BorderRadius.circular(radius ?? 0),
                     child: Image.asset(AppAssets.background,
-                        width: width, height: height, fit: fit)))
-          );
+                        width: width, height: height, fit: fit))));
   }
 }

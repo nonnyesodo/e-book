@@ -1,4 +1,4 @@
-import 'package:medical_app/global_widget/export.dart';
+import 'package:ebook_task/global_widget/export.dart';
 
 class AppbackButton extends StatelessWidget {
   const AppbackButton({
@@ -13,6 +13,6 @@ class AppbackButton extends StatelessWidget {
     return GestureDetector(
         onTap: onTap ?? () => context.pop(),
         child: Icon(Icons.arrow_back,
-            color: color ?? AppColors.blackOrWhite(context), size: 25.sp));
+            color: color ?? AppColors.black, size: 25.sp));
   }
 }
